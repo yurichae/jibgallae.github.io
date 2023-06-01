@@ -1,8 +1,4 @@
 export default {
-  target: 'static', // 정적 웹사이트임을 명시
-  router: {
-    base: '/jibgallae/'
-  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxtpjt',
@@ -39,5 +35,7 @@ export default {
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    publicPath : '/yurichae.github.io/'
+  },
 }
